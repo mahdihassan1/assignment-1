@@ -1,0 +1,65 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;
+margin:auto;
+margin: 0px;
+}
+h1{
+    font-size: 40px;
+}
+.border{
+    border-left: 7px solid tomato;
+    padding: 0px 5px 0px 10px;
+    
+}
+
+
+.orange{
+    color:orange;
+}
+.first-continar{
+    display: flex;
+
+}
+.half-width{
+    margin-right: 30px;
+    width: 60%;
+    padding: 5%;
+    margin-left: 50px;
+   
+}
+.button{
+    text-decoration: none;
+    color:white;
+    background-color: tomato;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+.half-width img{
+    width: 80%;
+    padding: 10%;
+
+}
+.second-conteiner{
+ text-align: center;
+ 
+}
+.block{display: flex;
+  
+   
+ 
+}
+.image{
+    width: 200px;
+}
+.block-1{
+
+
+}
+.block-2{
+     
+}
+.block-3{
+     
+}
