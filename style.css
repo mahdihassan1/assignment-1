@@ -52,7 +52,7 @@ align-items: center;
 
 .block{display: flex;
  align-items:center; 
-   width: 100%;
+   width: auto;
    height: auto;
    margin:57px;
    border-radius:20px;
@@ -99,6 +99,7 @@ border-radius: 10px;
 }
 .photo{
     width: 350px;
+    margin-left: 70px;
     
 }
 .hard-work{
@@ -115,19 +116,44 @@ border-radius: 10px;
     margin-top: 40px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;}
 
-}
-.left{
-    margin-left:80px;
+    .right {
+        margin-right: 80px;
+    }
+    .photo {
+        width: 366px;
+        margin-left: 69px;
+    }
     
-}
-.right{
-    margin-right:50px;
-}
 .fift-continer{
-    background-color: black;
+    background-color: rgba(150, 141, 141, 0.39);text-align: center;
+align-items: center;
+justify-content: center;
+width: auto;
+height:auto;
 }
 .extra-features{
-
+display: flex;
+align-items: center;
+margin-left: 10px;
+margin-right:10px ;
+font-size: 15px;
 }
+.extra-1{width: 300px;
+    height: 200px;
+background-color: hsl(207deg 5% 35% / 46%);
+margin: 5px;
+padding: 2px;
+border-radius: 10px;
+box-shadow:  10px 15px 28px grey;
+}
+.fift-continer div h2{
+    color: rgb(25, 37, 207);
+    font-size: 25px;
+}
+.fift-continer h6{
+    color: red;
+    padding-top: 20px;
+}
+
