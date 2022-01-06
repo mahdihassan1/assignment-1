@@ -2,11 +2,12 @@ body{
     font-family: 'Roboto Mono', monospace;
 font-family: 'Roboto Slab', serif;
 margin:auto;
-padding: 0px;
+padding:0px;
 
 }
 h1{
     font-size: 40px;
+    
 }
 .border{
     border-left: 7px solid tomato;
@@ -47,15 +48,15 @@ h1{
  text-align: center;
 justify-content: center;
 align-items: center;
- 
-}
-
-.block{display: flex;
  align-items:center; 
    width: auto;
    height: auto;
    margin:57px;
    border-radius:20px;
+}
+
+.block{display: flex;
+ 
    
 
  
@@ -127,7 +128,7 @@ border-radius: 10px;
     }
     
 .fift-continer{
-    background-color: rgba(150, 141, 141, 0.39);text-align: center;
+    : rgba(150, 141, 141, 0.39);text-align: center;
 align-items: center;
 justify-content: center;
 width: auto;
@@ -155,5 +156,20 @@ box-shadow:  10px 15px 28px grey;
 .fift-continer h6{
     color: red;
     padding-top: 20px;
+    font-size: 15px;
+    margin-bottom:10px ;
+}
+.footer{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding-bottom:9px;
+    
 }
 
+#mission{
+font-family: 'Dancing Script', cursive;
+padding-top: 15px;
+}
