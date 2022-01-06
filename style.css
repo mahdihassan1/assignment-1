@@ -26,7 +26,6 @@ h1{
 .half-width{
     margin-right: 30px;
     width: 60%;
-    padding: 5%;
     margin-left: 50px;
    
 }
@@ -36,6 +35,7 @@ h1{
     background-color: tomato;
     border-radius: 15px;
     padding: 10px;
+    cursor: pointer;
     
 }
 .half-width img{
@@ -51,7 +51,7 @@ align-items: center;
  align-items:center; 
    width: auto;
    height: auto;
-   margin:57px;
+   margin:74px;
    border-radius:20px;
 }
 
@@ -79,7 +79,7 @@ border-radius: 10px;
      background-color:#ff69b440;
      margin:5px;
      border-radius: 10px;
-     padding: 18px;
+    
      
 }
 .block-3{
@@ -128,7 +128,7 @@ border-radius: 10px;
     }
     
 .fift-continer{
-    : rgba(150, 141, 141, 0.39);text-align: center;
+text-align: center;
 align-items: center;
 justify-content: center;
 width: auto;
@@ -140,17 +140,18 @@ align-items: center;
 margin-left: 10px;
 margin-right:10px ;
 font-size: 15px;
+margin-bottom: 36px;
 }
-.extra-1{width: 300px;
-    height: 200px;
-background-color: hsl(207deg 5% 35% / 46%);
-margin: 5px;
-padding: 2px;
-border-radius: 10px;
-box-shadow:  10px 15px 28px grey;
+.extra-1{    width: 300px;
+    height: 292px;
+    background-color: hsl(207deg 5% 35% / 46%);
+    margin: 13px;
+    padding: 21px;
+    border-radius: 10px;
+    box-shadow: 6px 13px 13px 4px grey;
 }
 .fift-continer div h2{
-    color: rgb(25, 37, 207);
+    color: rgb(196, 51, 123);
     font-size: 25px;
 }
 .fift-continer h6{
@@ -172,4 +173,7 @@ box-shadow:  10px 15px 28px grey;
 #mission{
 font-family: 'Dancing Script', cursive;
 padding-top: 15px;
+}
+.last :hover{
+    color: rgb(140, 222, 224);
 }
